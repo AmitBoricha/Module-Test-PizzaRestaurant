@@ -429,3 +429,71 @@ header{
     height: 100%;
 }
   
+.container-gallary{
+    display: grid;
+    margin-left: 200px;
+    margin-right: 200px;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    height: 500px;
+}
+
+.items{
+    background-color: gray;
+}
+
+#item1{
+    background-image: url("./Resources/pizza2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row-start: 1;
+    grid-row-end: 7;
+}
+
+#item2{
+    background-image: url("./Resources/pizza5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+#item4{
+    background-image: url("./Resources/salad.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+#item6{
+    background-image: url("./Resources/bread2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
+
+#item3{
+    background-image: url("./Resources/bread.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+#item5{
+    background-image: url("./Resources/shake1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
